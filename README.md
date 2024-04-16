@@ -26,7 +26,7 @@ Project consists of building a simple SOC Lab at home following the tutorial of 
 
 - <b>SOC_PFSENSE</b>: This machine was made for the software pfSense which is used as a Firewall/Router. 
 - <b>SOC_AD</b>: This machine is used as an Active Directory Domain Controller.
-- <b>SOC_Win10</b>: This machine is used as a simple workstaiton instance. 
+- <b>SOC_Win10</b>: This machine is used as a simple workstation instance. 
 
 <h2>Creation walk-through:</h2>
 
