@@ -17,7 +17,7 @@ Project consists of building a simple SOC Lab at home with the help of the assoc
 
 <h2>Creation walk-through:</h2>
 
-<h3>PfSense Machine:</h3>
+<h3>PfSense Virtual Machine:</h3>
 <p align="center">
 Cofiguring Network Adapters <br/>
 <img src="https://i.imgur.com/STvaVTR.png" height="80%" width="80%" alt="SOC Lab"/>
@@ -27,8 +27,38 @@ pfSense Installer <br/>
 <img src="https://i.imgur.com/9NOfSGO.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="SOC Lab"/>
+Configuring Network Interfaces:  <br/>
+<img src="https://i.imgur.com/Q7870zq.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+</p>
+
+<h3>Active Directory Virtual Machine:</h3>
+<p align="center">
+Seting Up the VM and Windows 2022 Server OS <br/>
+<img src="https://i.imgur.com/ZGaMNfh.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Network Adapter Configuration <br/>
+<img src="https://i.imgur.com/HLDVosz.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Active Directory Installation  <br/>
+<img src="https://i.imgur.com/IId9kTS.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Making the server a domain controller  <br/>
+<img src="https://i.imgur.com/t5LdACo.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Adding a new AD forest  <br />
+<img src="https://i.imgur.com/Bpk3jql.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Initiating BadBlood to populate Active Directory <br />
+<img src="https://i.imgur.com/4e302ms.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
 </p>
 
 <!--
