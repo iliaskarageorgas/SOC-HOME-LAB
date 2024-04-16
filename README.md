@@ -1,7 +1,9 @@
 <h1>SOC Home Lab</h1>
 
 <h2>Description</h2>
-Project consists of building a simple SOC Lab at home with the help of the associated lesson at LetsDefend platform. 
+Project consists of building a simple SOC Lab at home following the tutorial of the associated lesson on LetsDefend platform. 
+<br/>
+(Lesson Link: https://app.letsdefend.io/training/lessons/building-a-soc-lab-at-home) 
 <br />
 
 
