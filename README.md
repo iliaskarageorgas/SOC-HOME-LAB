@@ -26,7 +26,24 @@ Project consists of building a simple SOC Lab at home following the tutorial of 
 
 - <b>SOC_PFSENSE</b>: This machine was made for the software pfSense which is used as a Firewall/Router. 
 - <b>SOC_AD</b>: This machine is used as an Active Directory Domain Controller.
-- <b>SOC_Win10</b>: This machine is used as a simple workstation instance. 
+- <b>SOC_Win10</b>: This machine is used as a simple workstation instance.
+
+<h2>Errors Occured </h2>
+
+- <b>The specified domain either does not exist or could not be contacted:</b> This poped-up when I tried to join the domain SOC with the workstation VM. This happened because when I assigned the IP for the workstation, I put a non-existent IP as a prefered DNS server. The correct way is to set as the DNS the AD server, so in my case the "SOC_AD" VM. On the image below the IP of the DNS is 192.168.10.10 which is not a system in my environment. The right way is the AD's IP 192.168.1.2. 
+<p align="center">
+<img src="https://i.imgur.com/XHSmegt.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+</p> 
+The AD server needs to be the DNS server of the workstation because firstly there is no DNS server in the environment and secondly because Active Directory relies heavily on name resolution, so the workstation can properly resolve domain names, locate AD resources such as domain controllers, and authenticate users.
+
+<h2>Sources Used </h2>
+
+- <b>Let's Defend SOC Lab at Home lesson: </b> https://app.letsdefend.io/training/lessons/building-a-soc-lab-at-home
+- <b>Sysmon Configuration XML: </b> https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml
+- <b>Active Directory Video: </b> https://www.youtube.com/watch?v=SsN8pwIE1_Y
+- <b>Various posts in Stackoverflow </b> https://stackoverflow.com/
 
 <h2>Creation walk-through:</h2>
 
@@ -90,6 +107,10 @@ First pfSense and workstation interaction <br />
 <br />
 Inserting workstation into the domain <br />
 <img src="https://i.imgur.com/Cm7p0Af.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Inastalling Sysmon<br />
+<img src="https://i.imgur.com/pidDaEp.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 </p>
