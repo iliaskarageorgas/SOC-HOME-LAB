@@ -72,16 +72,24 @@ Initiating BadBlood to populate Active Directory <br />
 <img src="https://i.imgur.com/4e302ms.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Windows 10 Workstation Setup<br />
-<img src="https://i.imgur.com/p1aw3wd.png" height="80%" width="80%" alt="SOC Lab"/>
-<br />
-<br />
 </p>
 
 <h3>Windows Workstation Virtual Machine:</h3>
 <p align="center">
 Windows 10 Workstation Setup<br />
 <img src="https://i.imgur.com/p1aw3wd.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Windows 10 Workstation IP <br />
+<img src="https://i.imgur.com/XHSmegt.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+First pfSense and workstation interaction <br />
+<img src="https://i.imgur.com/zCKA6iE.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Inserting workstation into the domain <br />
+<img src="https://i.imgur.com/Cm7p0Af.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 </p>
