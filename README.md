@@ -43,7 +43,9 @@ The AD server needs to be the DNS server of the workstation because firstly ther
 - <b>Let's Defend SOC Lab at Home lesson: </b> https://app.letsdefend.io/training/lessons/building-a-soc-lab-at-home
 - <b>Sysmon Configuration XML: </b> https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml
 - <b>Active Directory Video: </b> https://www.youtube.com/watch?v=SsN8pwIE1_Y
-- <b>Various posts in Stackoverflow </b> https://stackoverflow.com/
+- <b>Various posts in Stackoverflow: </b> https://stackoverflow.com/
+- <b>For image attachemnts: </b> https://imgur.com/
+- <b>CrowdSec .msi installation </b> https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.1
 
 <h2>Creation walk-through:</h2>
 
@@ -111,6 +113,10 @@ Inserting workstation into the domain <br />
 <br />
 Inastalling Sysmon<br />
 <img src="https://i.imgur.com/pidDaEp.png" height="80%" width="80%" alt="SOC Lab"/>
+<br />
+<br />
+Inastalling CrowdSec<br />
+<img src="https://i.imgur.com/3sqywQU.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
 </p>
