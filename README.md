@@ -1,7 +1,7 @@
 <h1>SOC Home Lab</h1>
 
 <h2>Description</h2>
-Project consists of building a simple SOC Lab at home following the tutorial of the associated lesson on LetsDefend platform. 
+This project consists of building a simple SOC Lab at home following the tutorial of the associated lesson on LetsDefend platform. 
 <br/>
 (Lesson Link: https://app.letsdefend.io/training/lessons/building-a-soc-lab-at-home) 
 <br />
@@ -30,7 +30,7 @@ Project consists of building a simple SOC Lab at home following the tutorial of 
 
 <h2>Errors Occured </h2>
 
-- <b>The specified domain either does not exist or could not be contacted:</b> This poped-up when I tried to join the domain SOC with the workstation VM. This happened because when I assigned the IP for the workstation, I put a non-existent IP as a prefered DNS server. The correct way is to set as the DNS the AD server, so in my case the "SOC_AD" VM. On the image below the IP of the DNS is 192.168.10.10 which is not a system in my environment. The right way is the AD's IP 192.168.1.2. 
+- <b>The specified domain either does not exist or could not be contacted:</b> This poped-up when I tried to join the domain SOC with the workstation VM. This happened because when I assigned the IP for the workstation, I put a wrong IP as a prefered DNS server. The correct way is to set as the DNS the AD server, so in my case the "SOC_AD" VM. On the image below the IP of the DNS is 192.168.10.10 which is not a system in my environment. The right way is the AD's IP 192.168.1.2. 
 <p align="center">
 <img src="https://i.imgur.com/XHSmegt.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
@@ -111,11 +111,11 @@ Inserting workstation into the domain <br />
 <img src="https://i.imgur.com/Cm7p0Af.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Inastalling Sysmon<br />
+Installing Sysmon<br />
 <img src="https://i.imgur.com/pidDaEp.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
-Inastalling CrowdSec<br />
+Installing CrowdSec<br />
 <img src="https://i.imgur.com/3sqywQU.png" height="80%" width="80%" alt="SOC Lab"/>
 <br />
 <br />
